@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(196, 222, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+}
+
+#inputYear {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#title {
+  font-size: 30px;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px;
+  width: 25%;
+  border-radius: 50px;
+  border: none;
+  background-color: #108d7d;
+  color: white;
+}
+
+button:hover {
+  background-color: #7cd0c5;
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+#results {
+  color: white;
+  font-size: 20px;
+  width: 50%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+  padding: 2%;
+}
+
+#resultTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #35cbb7;
+
+  border-radius: 1%;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
